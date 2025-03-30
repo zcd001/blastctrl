@@ -1,0 +1,160 @@
+﻿
+
+.TabbedPanels
+{
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	clear: none;
+	width: 100%;
+
+}
+
+.TabbedPanelsTabGroup
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.TabbedPanelsTab
+{
+	position: relative;
+	top: 1px;
+	float: left;
+	padding: 0px 10px;
+	margin: 7px 1px 0px 0px;
+	font-size: 16px;
+	background-color: #17437e;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	min-width: 70px;
+	text-align: center;
+}
+
+.TabbedPanelsTabHover
+{
+	background-color: #ff9933;
+}
+
+.TabbedPanelsTabSelected
+{
+	background-color: #ff9933;
+	height: 48px;
+	line-height: 48px;
+	margin-top: 0;
+}
+
+.TabbedPanelsTab a
+{
+	color: black;
+	text-decoration: none;
+}
+
+ant to style the ContentGroup container.
+ */
+.TabbedPanelsContentGroup
+{
+	clear: both;
+	border-top: #ff9933 2px solid;
+	padding-top: 15px;
+}
+
+.TabbedPanelsContent
+{
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 32px;
+	color: #333333;
+	padding-right: 10px
+}
+/*
+.TabbedPanelsContent p
+{
+	text-indent: 2em;
+}*/
+
+.TabbedPanelsContentVisible
+{
+    display: block !important;
+padding-left: 20px;
+}
+
+.VTabbedPanels
+{
+	overflow: hidden;
+	zoom: 1;
+}
+
+.VTabbedPanels .TabbedPanelsTabGroup
+{
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+
+.VTabbedPanels .TabbedPanelsTab
+{
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+the TabGroup, and its top border from the TabGroup or tab button above it.
+ */
+.VTabbedPanels .TabbedPanelsTabSelected
+{
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+
+.VTabbedPanels .TabbedPanelsContentGroup
+{
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+
+
+@media print
+{
+	.TabbedPanels
+	{
+		overflow: visible !important;
+	}
+
+	.TabbedPanelsContentGroup
+	{
+		display: block !important;
+		overflow: visible !important;
+		height: auto !important;
+	}
+
+	.TabbedPanelsContent
+	{
+		overflow: visible !important;
+		display: block !important;
+		clear: both !important;
+	}
+
+	.TabbedPanelsTab
+	{
+		overflow: visible !important;
+		display: block !important;
+		clear: both !important;
+	}
+}

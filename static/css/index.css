@@ -1,0 +1,821 @@
+﻿
+.edu {
+    position: relative;
+}
+
+.edu::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 85px;
+    width: 361px;
+    background: #fff;
+}
+
+.itembox {
+    position: relative;
+    z-index: 6;
+}
+
+.itembox .brief {
+    position: relative;
+    float: left;
+    width: 320px;
+    background: url(../image/brief-bg.png) no-repeat center top;
+    background-size: cover;
+    padding: 25px 25px 50px 25px;
+}
+
+.itembox .brief .tit_in {
+    line-height: 85px;
+    border-bottom: 1px solid rgba(255, 255, 255, 33);
+    font-size: 24px;
+    color: #fff;
+    font-family: "sisong";
+    text-align: center;
+}
+
+.itembox .brief ul {
+    padding-top: 30px;
+}
+
+.itembox .brief ul li {
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.itembox .brief .more {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-left: 58px solid #2b579a;
+    border-top: 58px solid transparent;
+}
+
+.itembox .brief .more a {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    left: -48px;
+    bottom: 4px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 100;
+    padding-right: 0;
+    background-image: none;
+    transition: all .3s;
+}
+
+.itembox .brief .more:hover a {
+    transform: scale(1.5);
+}
+
+.edu .slideBox {
+    position: relative;
+    width: calc(100% - 320px);
+    float: right;
+}
+
+.edu .slideBox .hd {
+    background: #fff;
+}
+
+.edu .slideBox .hd ul {
+    font-size: 0;
+    text-align: center;
+}
+
+.edu .slideBox .hd ul li {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 65px;
+    font-size: 24px;
+    color: #262626;
+    font-family: "sisong";
+    border-bottom: 2px solid transparent;
+    line-height: 84px;
+    cursor: pointer;
+}
+
+.edu .slideBox .hd ul li.on {
+    color: #2b579a;
+    border-bottom: 2px solid #2b579a;
+}
+
+.edu .bd {
+    padding-left: 70px;
+    padding-top: 65px;
+}
+
+.edu .bd ul {
+    position: relative;
+}
+
+.edu .bd ul::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 25px;
+    bottom: 20px;
+    width: 1px;
+    background: #d0daea;
+}
+
+.edu .bd ul li {
+    position: relative;
+    margin-bottom: 80px;
+    padding-left: 35px;
+    background: url(../image/list.png) no-repeat left 15px;
+    z-index: 6;
+    transition: all .3s;
+}
+
+.edu .bd ul li span {
+    position: relative;
+    display: table-cell;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #3c3b3b;
+    vertical-align: top;
+    min-width: 62px;
+}
+
+.edu .bd ul li span:first-child {
+    /* background: #2b579a; */
+    color: #fff;
+}
+
+.edu .bd ul li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 38px;
+    background: #fff;
+    z-index: -1;
+}
+
+.edu .bd ul li span:first-child::after {
+    background: #2b579a;
+}
+
+.edu .bd ul li p {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 50px;
+    line-height: 38px;
+    font-size: 16px;
+    color: #3c3b3b;
+}
+
+.edu .bd ul li:hover {
+    background: url(../image/list-other.png) no-repeat left 15px;
+}
+
+.edu .bd ul li:hover p {
+    color: #2b579a;
+}
+
+.edu .bd ul .more {
+    position: absolute;
+    right: 0;
+    width: 120px;
+    height: 48px;
+    line-height: 48px;
+    background: url(../image/more-other-bg.png) no-repeat center center;
+    background-size: 100% 100%;
+    bottom: -135px;
+    text-align: center;
+}
+
+.edu .bd ul .more a {
+    position: relative;
+    display: inline-block;
+    padding-right: 30px;
+    background: url(../image/more.png) no-repeat right center;
+    font-size: 14px;
+    color: #fff;
+    transition: all .3s;
+    right: 0;
+}
+
+.edu .bd ul .more a:hover {
+    right: 3px;
+}
+
+.research {
+    position: relative;
+    margin-top: 70px;
+    padding-top: 55px;
+    padding-bottom: 90px;
+    background: url(../image/research-l-bg.jpg) no-repeat left top;
+}
+
+.research::before {
+    content: "";
+    position: absolute;
+    width: 430px;
+    height: 1px;
+    left: 0;
+    top: 105px;
+    background: url(../image/research-xx.png) no-repeat center center;
+}
+
+.research::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../image/research-r-bg.png) no-repeat right bottom;
+    z-index: 1;
+}
+
+.item-l {
+    position: relative;
+    float: left;
+    width: 47%;
+    z-index: 6;
+}
+
+.item-r {
+    position: relative;
+    float: right;
+    width: 47%;
+    z-index: 6;
+}
+
+.tit {
+    position: relative;
+    font-size: 24px;
+    color: #fff;
+    font-family: "sisong";
+}
+
+.tit img {
+    display: inline-block;
+    vertical-align: -8px;
+    padding-right: 10px;
+}
+
+.tit a {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding-right: 30px;
+    background: url(../image/more.png) no-repeat right center;
+    font-size: 14px;
+    color: #fff;
+    font-family: "微软雅黑";
+    transition: all .3s;
+}
+
+.tit a:hover {
+    right: 5px;
+}
+
+.item-l .tit::after {
+    content: "";
+    position: absolute;
+    width: 104px;
+    height: 2px;
+    background: #fff;
+    bottom: -15px;
+    left: 40px;
+}
+
+.direct {
+    padding-top: 30px;
+}
+
+.direct li {
+    margin-top: 25px;
+    line-height: 60px;
+    background: rgba(0, 0, 0, .35) no-repeat center right;
+    
+    border-left: 8px solid rgba(255, 255, 255, .18);
+   
+    transition: all .3s;
+}
+
+.direct li a {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;padding-left: 35px;
+ padding-right: 70px;}
+.direct li a:hover {
+    background: url(../image/direct-bg.png)  no-repeat center right;
+   
+}
+.direct li:hover {
+    border-left: 8px solid #073170;
+}
+
+.item-r .slideBox {
+    padding-top: 55px;
+    padding-left: 50px;
+}
+
+.item-r .slideBox .hd {
+    padding-top: 20px;
+}
+
+
+.item-r .slideBox .bd {
+   min-height: 340px;
+}
+
+.item-r .slideBox .hd ul {
+    border-bottom: 1px solid #fff;
+}
+
+.item-r .slideBox .hd ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 65px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.item-r .slideBox .hd ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #fff;
+    bottom: -1px;
+    display: none;
+}
+
+.item-r .slideBox .hd ul li.on {
+    font-weight: bold;
+}
+
+.item-r .slideBox .hd ul li.on::after {
+    display: block;
+}
+
+.item-r .slideBox .bd .more {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    transition: all .3s;
+}
+
+.item-r .slideBox .bd .more:hover {
+    right: 10px;
+}
+
+.more a {
+    font-size: 14px;
+    color: #fff;
+    padding-right: 30px;
+    background: url(../image/more.png) no-repeat right center;
+}
+
+.item-r .slideBox .bd ul li {
+    margin-top: 35px;
+}
+
+.item-r .slideBox .bd ul li a {
+    display: block;
+}
+
+.item-r .slideBox .bd ul li a .date {
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+.item-r .slideBox .bd ul li a .date span {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    padding-left: 45px;
+    line-height: 40px;
+    background: #133973 url(../image/date.png) no-repeat 10px center;
+    font-size: 16px;
+    color: #fff;
+    font-family: "sisong";
+}
+
+.item-r .slideBox .bd ul li a p {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 40px;
+    padding-left: 25px;
+    font-size: 16px;
+    color: #fff;
+    opacity: .5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+    width: calc(100% - 175px);
+}
+
+.item-r .slideBox .bd ul li a .date span::after {
+    content: "";
+    position: absolute;
+    right: -9px;
+    width: 22px;
+    height: 2px;
+    background: rgba(255, 255, 255, .46);
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+.item-r .slideBox .bd ul li:hover a .date span {
+    background: #1a4d9b url(../image/date.png) no-repeat 10px center;
+}
+
+.item-r .slideBox .bd ul li:hover a .date span::after {
+    background: #fff;
+}
+
+.item-r .slideBox .bd ul li:hover a p {
+    opacity: 1;
+}
+
+.team {
+    position: relative;
+    margin-top: 25px;
+    z-index: 99;
+}
+
+.team .tit {
+    position: relative;
+    color: #2b2b2b;
+    width: 53%;
+}
+
+.team .tit::before {
+    content: "";
+    position: absolute;
+    left: 50px;
+    bottom: -10px;
+    width: 104px;
+    height: 3px;
+    background: #2b579a;
+    z-index: 3;
+}
+
+.team .tit::after {
+    content: "";
+    position: absolute;
+    left: 50px;
+    right: 0;
+    bottom: -9px;
+    height: 1px;
+    background: #bababa;
+}
+
+.team .tit a {
+    background: url(../image/more-other.png) no-repeat right center;
+    font-size: 14px;
+    color: #535353;
+}
+
+.team_intro {
+    padding-top: 25px;
+}
+
+.team_intro dl {
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.team_intro dl dt {
+    float: left;
+    width: 113px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    color: #fff;
+    background: #2b579a;
+}
+
+.team_intro dl dd {
+    margin-top: 10px;
+    overflow: hidden;
+    width: calc(100% - 130px);
+    padding-left: 20px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #2f2f2f;
+    padding-left: 15px;
+}
+
+.member {
+    margin-top: 50px;
+    margin-bottom: 125px;
+}
+
+.member ul {
+    margin: 0 -25px;
+}
+
+.member ul li a {
+    position: relative;
+    display: block;
+    margin: 0 25px;
+}
+
+.member ul li a .pic {
+    position: relative;
+    padding-top: 132.9%;
+    z-index: 9;
+    overflow: hidden;
+}
+
+.member ul li a .pic img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    /* object-fit: cover; */
+    transform: translate(-50%, -50%);
+}
+
+.member ul li a .text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 123px;
+    background: url(../image/team-txt-bg.png) no-repeat center bottom;
+    background-size: 100% auto;
+    transition: all .3s;
+    z-index: 99;
+}
+
+.member ul li a .text p {
+    padding-top: 65px;
+}
+
+.member ul li a .text p span {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.member ul li a .text p i {
+    display: inline-block;
+    padding-left: 45px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.member ul li:hover a .text {
+    background: url(../image/team-txt-bg-other.png) no-repeat center bottom;
+}
+
+@media only screen and (max-width:1200px) {
+    .member ul {
+        margin: 0;
+    }
+    .edu .slideBox .hd ul li {
+        margin: 0 35px;
+    }
+}
+
+@media only screen and (max-width:1840px) {
+    .research {
+        padding-bottom: 30px;
+    }
+    .item-r .slideBox .bd ul li {
+        margin-top: 30px;
+    }
+    .research::after {
+        background-size: 50% auto;
+    }
+.item-r .slideBox .bd {
+   min-height: 320px;
+}
+    .team {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width:1770px) {
+    .research::before {
+        width: 360px;
+    }
+}
+
+@media only screen and (max-width:1630px) {
+    .research::before {
+        width: 260px;
+    }
+}
+
+@media only screen and (max-width:1435px) {
+    .research::before {
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    .item-r .slideBox {
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    .research::after {
+        display: none;
+    }
+    .item-r .slideBox .bd {
+        min-height: auto;
+    }
+    .item-r .slideBox .bd ul li {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width:1230px) {
+    .research::before {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .member ul li a .text p {
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .itembox .brief {
+        float: none;
+        width: 100%;
+    }
+    .edu .slideBox {
+        width: 100%;
+    }
+    .edu .bd ul .more {
+        bottom: -110px;
+    }
+    .research::before {
+        background-size: cover;
+    }
+    .item-r .slideBox .bd ul li a p {
+   /*     line-height: 26px;*/
+    }
+    .member ul li a .text p span {
+        padding-left: 5px;
+    }
+    .member ul li a .text p i {
+        padding-left: 35px;
+    }
+    .member ul li a {
+        margin: 0 10px;
+    }
+    .member ul li a .text {
+        height: 115px;
+    }
+    .itembox .brief {
+        padding-top: 0;
+    }
+    .itembox .brief .tit_in {
+        line-height: 45px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .edu .slideBox .hd ul li {
+        margin: 0 5px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .edu .bd {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    .edu .bd ul li {
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+    .edu .bd ul li p {
+        padding-left: 5px;
+    }
+    .edu .bd ul li span {
+        padding: 0 5px;
+    }
+    .edu .bd ul li p {
+    /*    line-height: 24px;*/
+        font-size: 14px;
+    }
+    .edu .bd ul .more {
+        bottom: -60px;
+    }
+    .item-l {
+        float: none;
+        width: 100%;
+    }
+    .research {
+        padding-top: 20px;
+        background-size: cover;
+    }
+    .direct {
+        padding-top: 10px;
+    }
+    .direct li {
+        margin-top: 15px;
+        line-height: 45px;
+    }
+    .item-r {
+        float: none;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .part_tit .name h1 p {
+        font-size: 20px;
+    }
+    .part_tit .name h1 span {
+        font-size: 14px;
+    }
+    .itembox .brief ul li {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .itembox .brief ul {
+        padding-top: 15px;
+    }
+    .edu .bd ul .more {
+        height: 40px;
+        line-height: 40px;
+    }
+    .tit {
+        font-size: 20px;
+    }
+    .tit img {
+        height: 30px;
+    }
+    .item-r .slideBox .bd .more {
+        top: 10px;
+    }
+    .item-r .slideBox {
+        padding-top: 0;
+    }
+    .item-r .slideBox .hd ul li {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    .item-r .slideBox .bd ul li a .date span {
+        width: 130px;
+        padding-left: 40px;
+        font-size: 14px;
+    }
+    .item-r .slideBox .bd ul li a p{
+         white-space: inherit;
+    }
+    .team .tit {
+        width: 100%;
+    }
+    .team_intro {
+        padding-top: 0;
+        margin-top: 15px;
+    }
+    .team_intro dl {
+        margin-top: 20px;
+    }
+    .member {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .member ul li a .text p span {
+        font-size: 16px;
+    }
+    .member ul li a .text p i {
+        font-size: 14px;
+    }
+    .team_intro dl dd {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .likes span {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .edu .bd ul li span {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,589 @@
+﻿
+.brief {
+    position: relative;
+}
+
+.data {
+    position: relative;
+    float: left;
+    width: 69%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 20px 40px 55px 130px;
+    min-height: 270px;
+}
+
+.data .tit_in {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    top: 0;
+    bottom: 30px;
+    width: 70px;
+    padding: 20px 20px 0 20px;
+    background: url(../image/brief-tit.png) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.data a,
+.direct>a {
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 22px;
+    width: 44px;
+    height: 48px;
+    background: url(../image/sj1.png) no-repeat center center;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+    color: #fff;
+}
+
+.brief .data li {
+    width: 50%;
+    float: left;
+    font-size: 16px;
+    margin: 9px 0;
+    color: #424242;
+}
+
+.contact {
+    float: right;
+    width: 25%;
+    padding: 30px 30px 20px 30px;
+    background: url(../image/contact-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.contact h2 {
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    font-family: "sisong";
+    text-align: center;
+    padding: 0 55px;
+    margin-bottom: 15px;
+}
+
+.contact h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 1px;
+    background: #fff;
+}
+
+.contact h2::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 1px;
+    background: #fff;
+}
+
+.xx_lx p {
+    padding: 11px 0;
+    line-height: 35px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.xx_lx p span {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px dashed #fff;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.xx_lx p span img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.edu {
+    float: left;
+    width: 47.6%;
+    background: #fff;
+    padding: 20px 30px;
+}
+
+.edu .slideBox {
+    position: relative;
+}
+
+.edu .slideBox .hd {
+    background: #fff;
+}
+
+.edu .slideBox .hd ul {
+    font-size: 0;
+    text-align: left;
+}
+
+.edu .slideBox .hd ul li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 22px;
+    color: #292929;
+    font-family: "sisong";
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+}
+
+.edu .slideBox .hd ul li.on {
+    color: #a82f36;
+    border-bottom: 3px solid #a82f36;
+}
+
+.edu .bd {}
+
+.edu .bd ul {
+    position: relative;
+    margin-top: 20px;
+}
+
+.edu .bd ul::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #d0daea;
+}
+
+.edu .bd ul li {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    background: url(../image/list1.png) no-repeat left 15px;
+    z-index: 6;
+    font-size: 0;
+    transition: all .3s;
+}
+
+.edu .bd ul li span {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #3c3b3b;
+    background: #f1f1f1;
+}
+
+.edu .bd ul li span:first-child {
+    background: #a82f36;
+    color: #fff;
+}
+
+.edu .bd ul li p {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #3c3b3b;
+    line-height: 20px;
+}
+
+.edu .bd ul li:hover p {
+    color: #a82f36;
+}
+
+.edu .bd ul .more {
+    position: absolute;
+    right: 0;
+    top: -65px;
+    border: 1px solid transparent;
+    margin-top: 0;
+}
+
+.edu .bd ul .more a {
+    color: #a2292d;
+}
+
+.edu .bd ul .more a:hover {
+    right: 3px;
+}
+
+.edu.fr {
+    float: right;
+}
+
+.tit {
+    position: relative;
+    font-size: 24px;
+    color: #fff;
+    font-family: "sisong";
+}
+
+.tit img {
+    display: inline-block;
+    vertical-align: -8px;
+    padding-right: 10px;
+}
+
+.tit a {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding-right: 30px;
+    background: url(../image/more1.png) no-repeat right center;
+    font-size: 14px;
+    color: #fff;
+    font-family: "微软雅黑";
+    transition: all .3s;
+}
+
+.tit a:hover {
+    right: 5px;
+}
+
+.item-l .tit::after {
+    content: "";
+    position: absolute;
+    width: 104px;
+    height: 2px;
+    background: #fff;
+    bottom: -15px;
+    left: 40px;
+}
+
+.direct {
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 110px;
+    padding: 10px 40px 15px 265px;
+    background: url(../image/dect-bg.jpg) no-repeat center bottom;
+    background-size: 100% 100%;
+    min-height: 120px;
+}
+
+.direct .tit {
+    position: absolute;
+    top: -23px;
+    bottom: -23px;
+    left: 38px;
+    width: 227px;
+    background: url(../image/dect-tit-bg.png) no-repeat center center;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.direct .tit img {
+    display: block;
+    margin-left: 95px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    padding-right: 0;
+}
+
+.direct li {
+    float: left;
+    width: 33.33%;
+    margin: 15px 0;
+    line-height: 30px;
+    transition: all .3s;
+}
+
+.direct li a span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    background: #a82f36;
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+}
+
+.direct li a {
+    display: block;
+    font-size: 16px;
+    color: #363636;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.direct li:hover a {
+    color: #a2292d;
+}
+
+.team {
+    position: relative;
+    margin-top: -26px;
+    z-index: 99;
+    padding-bottom: 90px;
+}
+
+.team_intro {
+    float: left;
+    width: 380px;
+    background: url(../image/team-l-bg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    padding: 30px 15px;
+    padding-bottom: 40px;
+}
+
+.team_intro dl {
+    margin-bottom: 18px;
+    overflow: hidden;
+}
+
+.team_intro dl dt {
+    float: left;
+    width: 85px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 16px;
+    color: #2f2f2f;
+    font-weight: bold;
+}
+
+.team_intro dl dd {
+    line-height: 28px;
+    font-size: 16px;
+    color: #2f2f2f;
+}
+
+.member {
+    overflow: hidden;
+}
+
+.member ul li a {
+    position: relative;
+    display: block;
+    margin-left: 50px;
+}
+
+.member ul li a .tpp {
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.member ul li a .pic {
+    position: relative;
+    padding-top: 127.5%;
+    z-index: 9;
+    overflow: hidden;
+}
+
+.member ul li a .pic img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.member ul li a .text {
+    text-align: center;
+}
+
+.member ul li a .text h2 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #2f2f2f;
+    font-weight: normal;
+}
+
+.member ul li a .text p {
+    font-size: 14px;
+    color: #2f2f2f;
+}
+
+@media only screen and (max-width:1400px) {
+    .contact {
+        width: 29%;
+        padding-left: 15px;
+    }
+    .xx_lx p span {
+        margin-left: 5px;
+    }
+    .contact {
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    
+    .direct li{
+        width:50%;
+    }
+    .data {
+        width: 65%;
+        padding: 20px 15px 55px 100px;
+    }
+    .contact {
+        width: 34%;
+    }
+    .data .tit_in {
+        left: 0;
+    }
+    .direct .tit {
+        left: 0;
+    }
+    .direct {
+        padding-left: 220px;
+    }
+    .member ul li a {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .data {
+        width: 100%;
+    }
+    .contact {
+        width: 100%;
+        text-align: center;
+    }
+    .contact h2 {
+        display: inline-block;
+    }
+    .xx_lx p {
+        text-align: left;
+    }
+    .edu {
+        padding: 20px 15px;
+    }
+    .edu .slideBox .hd ul li {
+        margin-right: 15px;
+    }
+    .direct .tit {
+        width: 180px;
+    }
+    .direct .tit img {
+        margin-left: 70px;
+    }
+    .direct {
+        padding-left: 175px;
+    }
+    .direct li {
+        padding: 0 5px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .brief .data li {
+        float: none;
+        width: 100%;
+    }
+    .edu {
+        float: none;
+        width: 100%;
+    }
+    .team_intro {
+        float: none;
+        width: 100%;
+    }
+    .direct .tit {
+        position: static;
+        width: 100%;
+        background: #a82f36;
+        padding: 10px 0;
+    }
+    .direct {
+        padding: 15px;
+    }
+    .direct .tit img {
+        display: inline-block;
+        padding-right: 10px;
+        height: 35px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    .direct li {
+        margin: 10px 0; 
+        float:none;
+    }
+    .xgjj .tit_in {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .tit_in {
+        font-size: 20px;
+    }
+    .photobox .name h1 {
+        font-size: 20px;
+    }
+    .data .tit_in {
+        width: 60px;
+        bottom: auto;
+        padding-bottom: 20px;
+        background-size: 100% 100%;
+    }
+    .data {
+        padding: 15px 15px 25px 70px;
+    }
+    .contact {
+        padding: 15px;
+    }
+    .xx_lx p {
+        padding: 5px 0;
+    }
+    .edu .slideBox .hd ul li {
+        font-size: 20px;
+    }
+    .brief .data li {
+        font-size: 14px
+    }
+    .edu .bd ul li {
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    .edu .bd ul li p {
+        font-size: 14px;
+    }
+    .edu {
+        padding: 10px 15px;
+    }
+    .direct {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-size: cover;
+    }
+    .tit {
+        font-size: 20px;
+    }
+    .team {
+        margin-top: 0;
+        padding-bottom: 15px;
+    }
+    .team_intro {
+        padding-bottom: 15px;
+    }
+    .team_intro dl dd {
+        font-size: 14px;
+    }
+    .team_intro dl {
+        margin-bottom: 5px;
+    }
+    .direct li a {
+        font-size: 14px;
+    }
+}
